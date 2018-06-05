@@ -7,7 +7,7 @@ package imc;
 
 /**
  *Atividade de IMC - Ciclo 03 Unis
- * @author Bruno Gabriel Corrêa
+ * @author Bruno Gabriel Corr�a
  */
 import javax.swing.*;
 
@@ -49,10 +49,10 @@ public static void main(String args[])
             JOptionPane.showMessageDialog(null, "Magreza moderada" +imc);
         }
 
-        //Saúdavel     
+        //Sa�davel     
         if (imc >=18.5 && imc <=25){
 
-            JOptionPane.showMessageDialog(null, "Saúdavel " +imc);
+            JOptionPane.showMessageDialog(null, "Sa�davel " +imc);
 
         }
         
@@ -75,10 +75,10 @@ public static void main(String args[])
             JOptionPane.showMessageDialog(null, "Obesidade Grau II severa" +imc);
 
         }
-        //Obesidade Grau III(mórbida)
+        //Obesidade Grau III(m�rbida)
             if (imc >=41) {
 
-            JOptionPane.showMessageDialog(null, "Obesidade Grau III mórbida " +imc);
+            JOptionPane.showMessageDialog(null, "Obesidade Grau III m�rbida " +imc);
 
         }
 
