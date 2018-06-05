@@ -1,13 +1,8 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package imc;
 
 /**
  *Atividade de IMC - Ciclo 03 Unis
- * @author Bruno Gabriel Corr�a
+ * @author Bruno Gabriel Corrêa
  */
 import javax.swing.*;
 
@@ -49,10 +44,10 @@ public static void main(String args[])
             JOptionPane.showMessageDialog(null, "Magreza moderada" +imc);
         }
 
-        //Sa�davel     
+        //Saúdavel     
         if (imc >=18.5 && imc <=25){
 
-            JOptionPane.showMessageDialog(null, "Sa�davel " +imc);
+            JOptionPane.showMessageDialog(null, "Saúdavel " +imc);
 
         }
         
@@ -75,10 +70,10 @@ public static void main(String args[])
             JOptionPane.showMessageDialog(null, "Obesidade Grau II severa" +imc);
 
         }
-        //Obesidade Grau III(m�rbida)
+        //Obesidade Grau III(mórbida)
             if (imc >=41) {
 
-            JOptionPane.showMessageDialog(null, "Obesidade Grau III m�rbida " +imc);
+            JOptionPane.showMessageDialog(null, "Obesidade Grau III mórbida " +imc);
 
         }
 
