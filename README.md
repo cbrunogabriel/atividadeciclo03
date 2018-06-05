@@ -2,8 +2,9 @@ package imc;
 
 /**
  *Atividade de IMC - Ciclo 03 Unis
- * @author Bruno Gabriel Corrêa
- */
+ * @author Bruno Gabriel Corrêa */
+ 
+ 
 import javax.swing.*;
 
 public class Imc
